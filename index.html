@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chatbot by Anas Ali</title>
+
+    <!-- font awesome icon cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+
+    <div class="parent">
+
+        <div class="desc">
+            <h1 class="head">Saylani Chatbot</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Impedit aspernatur ratione debitis natus illum! Lorem ipsum dolor sit amet. </p>
+            <button id="init">Start Chatbot Now</button>
+        </div>
+        <div>
+            <img src="saylanipng.png" alt="" class="bot-img">
+        </div>
+    </div>
+
+
+
+    <div id="test" style="position: fixed; bottom: 4rem; right: 8rem;">
+
+        <div class="child" id="test">
+            <div class="header">
+                <div class="h-child">
+                    <img src="logo-OpazD70S.png" alt="avatar" id="avatar">
+                    <div>
+                        <span class="name">Chatbot</span>
+                        <br>
+                        <span style="color: lawngreen;">Online</span>
+                    </div>
+                </div>
+
+                <div>
+                    <button class="refBtn"><i class="fa fa-refresh"></i></button>
+                </div>
+
+            </div>
+
+            <!-- <div id="chat-box"> -->
+                <ul id="list">
+
+                </ul>
+                
+                <div id="typing" style="display: none;">
+                    Typing...
+                </div>
+            <!-- </div> -->
+            <div class="footer">
+                <!-- <span>powered by /@Anas</span> -->
+                <input onkeydown="sendMessage()" type="text" placeholder="message" id="message">
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <!-- CHAT AI -->
+
+    
+<!-- <ul id="list">
+
+</ul>
+
+<div id="typing" style="display: none;">
+    Typing...
+</div> -->
+
+<!-- <input onkeydown="sendMessage()" type="text" placeholder="message" id="message"> -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
