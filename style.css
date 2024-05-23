@@ -4,13 +4,13 @@ html,body{
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(90deg, rgba(1,1,88,0.82),rgb(1,1,29));
+    background: linear-gradient(90deg, rgba(100, 231, 67, 0.82),rgb(117, 117, 219));
     transition: 1s all ease-in-out;
 }
 
 #init{
     margin-top: 2rem;
-    background: indianred;
+    background: #0d6efd;
     border: none;
     padding: 10px 20px;
     border-radius: 20px;
@@ -21,7 +21,7 @@ body{
 }
 
 .desc p{
-    color: rgb(133,153,168);
+    color: rgb(5, 5, 5);
     margin: 0;
     font-weight: 600;
 }
@@ -113,6 +113,30 @@ body{
     font-weight: 600;
 }
 
+.left-side {
+    /* position: relative; */
+    list-style: none;
+    top: 60px;
+    padding: auto;
+    font-size: 12px;
+    height: 1rem;
+    /* overflow: auto; */
+    background: rgb(224,241,253);
+    text-align: left;
+}
+
+.right-side{
+    /* position: relative; */
+    list-style: none;
+    /* top: 60px; */
+    padding: 10px 1px;
+    font-size: 12px;
+    height: 2rem;
+    /* overflow: hidden; */
+    background: rgb(224,241,253);
+    text-align: right;
+}
+
 .footer{
     position: absolute;
     bottom: 0;
@@ -122,17 +146,19 @@ body{
     border-bottom-right-radius: 15px;
     color: indianred;
     padding: 15px 0;
+    border: none;
     text-align: center;
     font-size: 14px;
-    box-shadow: 0 0 3px rgb(153,153,153);
+    /* box-shadow: 0 0 3px rgb(153,153,153); */
 }
   
 
 
 /* this classes is used innnn JS */
-#chat-box{
+#chatBox{
     position: relative;
-    top: 40px;
+    list-style: none;
+    top: 60px;
     padding: 8px 10px;
     font-size: 12px;
     height: 24.2rem;

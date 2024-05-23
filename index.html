@@ -19,9 +19,9 @@
     <div class="parent">
 
         <div class="desc">
-            <h1 class="head">Saylani Chatbot</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Impedit aspernatur ratione debitis natus illum! Lorem ipsum dolor sit amet. </p>
-            <button id="init">Start Chatbot Now</button>
+            <h1 class="head">SMIT Chatbot</h1>
+            <p>Welcome to the Saylani Mass IT Training Program Chatbot! We are here to assist you with all your queries related to our training courses, schedules, and resources. Our goal is to provide you with the best support and information to ensure a smooth and enriching learning experience. </p>
+            <button id="init" onclick="showChatBot()">START CHATBOT NOW</button>
         </div>
         <div>
             <img src="saylanipng.png" alt="" class="bot-img">
@@ -30,8 +30,8 @@
 
 
 
-    <div id="test" style="position: fixed; bottom: 4rem; right: 8rem;">
-
+    <div id="test" style="position: fixed; bottom: 4rem; right: 8rem; ">
+        <!-- display: none; -->
         <div class="child" id="test">
             <div class="header">
                 <div class="h-child">
@@ -49,19 +49,19 @@
 
             </div>
 
-            <!-- <div id="chat-box"> -->
-                <ul id="list">
+            <div class="chatBox" id="chatBox">
+                <ul id="chatBox">
 
                 </ul>
                 
                 <div id="typing" style="display: none;">
                     Typing...
                 </div>
-            <!-- </div> -->
-            <div class="footer">
-                <!-- <span>powered by /@Anas</span> -->
-                <input onkeydown="sendMessage()" type="text" placeholder="message" id="message">
             </div>
+            <!-- <div class="footer"> -->
+                <!-- <span>powered by /@Anas</span> -->
+                <input class="footer" onkeydown="sendMessage()" type="text" placeholder="message" id="message">
+            <!-- </div> -->
 
         </div>
 
